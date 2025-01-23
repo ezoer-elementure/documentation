@@ -28,8 +28,8 @@ Receive (and store) consignment stock
 =====================================
 
 With the feature enabled in Odoo, consignment stock can now be received into a warehouse. From the
-main :menuselection:`Inventory` dashboard, click into the :guilabel:`Receipts`
-section. Then, click :guilabel:`Create`.
+main :menuselection:`Inventory` dashboard, click into the :guilabel:`Receipts` section. Then, click
+:guilabel:`Create`.
 
 .. note::
    Consignment stock is not actually purchased from the vendor; it is simply received and stored.
@@ -74,9 +74,9 @@ quotation is complete, click :guilabel:`Confirm`.
    :align: center
    :alt: Sales order of consignment stock.
 
-Once the :abbr:`RFQ (Request for Quotation)` has been confirmed, it will become a sales order. From
-here, the products can be delivered by clicking on the :guilabel:`Delivery` smart button, and
-selecting :guilabel:`Validate` to validate the delivery.
+Once the :abbr:`Quotation` has been confirmed, it will become a sales order. From here, the products
+can be delivered by clicking on the :guilabel:`Delivery` smart button, and selecting
+:guilabel:`Validate` to validate the delivery.
 
 Traceability and reporting of consignment stock
 ===============================================
@@ -97,10 +97,10 @@ Product moves report
 
 To view all information about on-hand stock moves, navigate to the the :guilabel:`Product Moves`
 dashboard by going to :menuselection:`Inventory --> Reporting --> Product Moves`. For consignment
-products, the information in this report is the same as any other product: the history
-of its product moves can be reviewed; the :guilabel:`Quantity Done` and :guilabel:`Reference`
-document are available; and its :guilabel:`Locations` are available, as well. The consignment stock
-will originate from :guilabel:`Partner Location/Vendors`.
+products, the information in this report is the same as any other product: the history of its
+product moves can be reviewed; the :guilabel:`Quantity Done` and :guilabel:`Reference` document are
+available; and its :guilabel:`Locations` are available, as well. The consignment stock will
+originate from :guilabel:`Partner Location/Vendors`.
 
 .. tip::
    To view a consignment product's moves by ownership, select the :guilabel:`Group By` filter,
